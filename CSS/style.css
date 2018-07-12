@@ -1,0 +1,305 @@
+/* Entrée */
+
+[class*="col-"], footer {
+  border-radius: 9px;
+
+  line-height: 40px;
+  text-align: center;
+}
+
+.col-lg-offset-2{
+  margin-left: 10%;
+}
+
+.col-lg-offset-1{
+  margin-left : 10%;
+}
+
+p{
+  color: black;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+    color: #FAC80D;
+}
+
+h1{
+  color: #FAC80D;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 30px;
+  font-size: 6.5em;
+}
+
+h2{
+  font-family: 'Poppins', sans-serif;
+}
+
+h3{
+  font-family: 'Poppins', sans-serif;
+}
+
+
+#Romain {
+  background-color: black;
+}
+
+
+#Robin {
+  background-color: #FAC80D;
+}
+
+
+#Valentin {
+  background-color:#FAC80D ;
+  margin-bottom: 40px;
+  border-radius: 9px;
+}
+
+#Celestin {
+  background-color:#FAC80D ;
+  color: black;
+  border-radius: 9px;
+
+
+  opacity:0;
+    -moz-animation: anim 3s linear forwards 3s;
+    -webkit-animation: anim 3s linear forwards 3s;
+    -o-animation: anim 3s linear forwards 3s;
+    -ms-animation: anim 3s linear forwards 3s;
+    animation: anim 3s linear forwards 3s;
+}
+@-moz-keyframes anim {
+   0%  {opacity:0;}
+   100% {opacity:1;}
+}
+@-webkit-keyframes anim {
+   0%  {opacity:0;}
+   100% {opacity:1;}
+}
+@-o-keyframes anim {
+   0%  {opacity:0;}
+   100% {opacity:1;}
+}
+@-ms-keyframes anim {
+   0%  {opacity:0;}
+   100% {opacity:1;}
+}
+@keyframes anim {
+   0%  {opacity:0;}
+   100% {opacity:1;}
+}
+
+
+.btn {
+  background-color: #FAC80D;
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #FF0400;
+  color: white;
+}
+
+#Alain{
+  color: #FAC80D;
+  margin-top: 100px;
+}
+
+#Logo {
+    opacity:0;
+    -moz-animation: anim 2.5s linear forwards 0.5s;
+    -webkit-animation: anim 2.5s linear forwards 0.5s;
+    -o-animation: anim 2.5s linear forwards 0.5s;
+    -ms-animation: anim 2.5s linear forwards 0.5s;
+    animation: anim 2.5s linear forwards 0.5s;
+}
+
+
+@-moz-keyframes anim {
+   0%  {opacity:0;}
+   100% {opacity:1;}
+}
+@-webkit-keyframes anim {
+   0%  {opacity:0;}
+   100% {opacity:1;}
+}
+@-o-keyframes anim {
+   0%  {opacity:0;}
+   100% {opacity:1;}
+}
+@-ms-keyframes anim {
+   0%  {opacity:0;}
+   100% {opacity:1;}
+}
+@keyframes anim {
+   0%  {opacity:0;}
+   100% {opacity:1;}
+}
+
+
+
+
+
+#Composition{
+  width: 250px;
+  height: 200px;
+  border-radius: 9px;
+  border: 4px solid red;
+}
+
+#Signature {
+  width: 175px;
+  height : 150px;
+}
+
+#burger {
+  width: 550px;
+  height : 325px;
+  border-radius: 30px;
+  margin-top: 50px;
+  margin-bottom: 35px;
+  margin-right: 120px;
+}
+
+/* #FAC80D couleur de référence */
+/* #FF0400 couleur de réference */
+
+
+/* Acceuil */
+
+body {
+    background-color: black;
+    color: #FAC80D;
+}
+
+.collapsible {
+    background-color: #FAC80D;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 105%;
+    border: none;
+    border-radius: 9px;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+.active, .collapsible:hover {
+    background-color: #FF0400;
+}
+
+.content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #FAC80D;
+    border-radius: 9px;
+    text-align: left;
+}
+
+
+/* Photo */
+
+body{margin-top:20px;}
+
+.margin30 {
+    margin-bottom: 30px;
+}
+
+.item-img-wrap {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+.item-img-wrap img {
+    -moz-transition: all 200ms linear;
+    -o-transition: all 200ms linear;
+    -webkit-transition: all 200ms linear;
+    transition: all 200ms linear;
+    width: 100%;
+}
+
+/************************image hover effect*******************/
+.item-img-wrap {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+}
+
+.item-img-wrap img {
+  -moz-transition: all 200ms linear;
+  -o-transition: all 200ms linear;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+  width: 100%;
+}
+
+.item-img-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+.item-img-overlay span {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(http://bootstraplovers.com/templates/assan-2.2/main-template/img/plus.png) no-repeat center center rgba(0, 0, 0, 0.7);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  opacity: 0;
+  -moz-transition: opacity 250ms linear;
+  -o-transition: opacity 250ms linear;
+  -webkit-transition: opacity 250ms linear;
+  transition: opacity 250ms linear;
+}
+
+.item-img-wrap:hover .item-img-overlay span {
+  opacity: 1;
+}
+
+.item-img-wrap:hover img {
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+
+/*************pagination***********/
+.gallery-bottom .pagination {
+  margin-top: 0px;
+}
+
+.pagination > li > a, .pagination > li > span {
+  background-color: #ccc;
+  padding: 3px 9px;
+  color: #fff;
+  border: 0px;
+}
+
+.pagination > li > a {
+  margin-right: 5px;
+}
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+  background-color: #32c5d2;
+}
+
+/* carte*/
